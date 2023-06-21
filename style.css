@@ -1,0 +1,41 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  min-width: 100vw;
+  justify-content: center;
+  justify-content: space-evenly;
+  justify-content: space-around;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 70px;
+  margin-right: 10px;
+}
+
+#container div {
+  padding-block: 30px;
+  padding-inline: 50px;
+  margin-bottom: 40px;
+}
+
+#Hero-image {
+  display: flex;
+  justify-content: center;
+}
+
+#sub-banners {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+#sub-banners div {
+  padding-inline: 150px;
+  padding-block: 50px;
+  border-color: black;
+  border: 5px;
+}
